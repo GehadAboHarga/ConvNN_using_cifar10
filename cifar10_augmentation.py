@@ -25,7 +25,7 @@ from keras.datasets import cifar10
 
 import numpy as np
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('matplotlib', 'inline')
 
 fig = plt.figure(figsize=(20,5))
 for i in range(36):

@@ -3,7 +3,7 @@
 # 
 # ---
 # 
-# In this notebook, we train a CNN to classify images from the CIFAR-10 database.
+# In this code, we train a CNN to classify images from the CIFAR-10 database.
 # 
 # ### 1. Load CIFAR-10 Database
 
@@ -24,7 +24,7 @@ from keras.datasets import cifar10
 
 import numpy as np
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('matplotlib', 'inline')
 
 fig = plt.figure(figsize=(20,5))
 for i in range(36):
